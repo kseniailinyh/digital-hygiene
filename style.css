@@ -1,0 +1,135 @@
+:root {
+    --main-bg-color: #ffffff;
+    --text-color: #333333;
+    --font-header: 'Instrument Serif', serif;
+    --font-body: 'Archivo', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+}
+
+h1, h2 {
+    font-family: var(--font-header);
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 100%;
+}
+
+p {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+button {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Section 1: Cover */
+.cover {
+    min-height: 95svh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    background: url('images/cover.jpg') no-repeat center center/cover;
+    color: var(--main-bg-color);
+    padding-top: 40px;
+}
+
+.cover-content {
+    max-width: 70%; 
+    margin: 80px auto; 
+}
+
+.cover p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Section 2: What's Inside */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-item {
+    padding: 10px;
+}
+
+.content-item img {
+    width: 100%;
+}
+
+/* Section 3: Call to Action */
+.cta form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.pp-DY4TWPQHKFB5Y {
+    margin: 0 auto;
+    display: inline-grid;
+    justify-items: center;
+    align-content: start;
+    gap: 0.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 1.5rem;
+    min-width: 11.625rem;
+    padding: 0 2rem;
+    height: 2.625rem;
+    font-weight: bold;
+    background-color: #000;
+    color: var(--main-bg-color);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+
+.paypal-logo {
+    height: 0.875rem;
+    vertical-align: middle;
+}
