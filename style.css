@@ -14,6 +14,10 @@ body {
     background-color: var(--main-bg-color);
 }
 
+a {
+    color: var(--text-color);
+}
+
 h1, h2 {
     font-family: var(--font-header);
     font-weight: normal;
